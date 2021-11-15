@@ -1,0 +1,12 @@
+diff --git a/node_modules/gatsby-source-graphql/fetch.js b/node_modules/gatsby-source-graphql/fetch.js
+index 0741f44..48f9a91 100644
+--- a/node_modules/gatsby-source-graphql/fetch.js
++++ b/node_modules/gatsby-source-graphql/fetch.js
+@@ -1,6 +1,6 @@
+ "use strict";
+ 
+-const nodeFetch = require(`node-fetch`); // this is passed to the Apollo Link
++const nodeFetch = require(`node-fetch`).default; // this is passed to the Apollo Link
+ // https://www.apollographql.com/docs/link/links/http/#fetch-polyfill
+ 
+ 
